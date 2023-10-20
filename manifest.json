@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Phone Number Helper",
+  "version": "1.0",
+  "description": "Opens special links with phone numbers.",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_icon": {
+      "16": "cloud16.png",
+      "32": "cloud32.png",
+      "48": "icon.png"
+    }
+  },
+  "permissions": ["clipboardRead", "tabs", "activeTab", "contextMenus"]
+
+}
